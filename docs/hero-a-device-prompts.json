@@ -1,0 +1,25 @@
+[
+  {
+    "key": "hero-a-desktop",
+    "source": "output/hero-candidates-20261103/hero-option-a.png",
+    "output": "public/assets/images/hero-a-desktop.webp",
+    "selection": "ユーザーが選択した1枚目・A案",
+    "promptRecord": "output/hero-candidates-20261103/prompts.json"
+  },
+  {
+    "key": "hero-a-tablet",
+    "reference": "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\output\\hero-candidates-20261103\\hero-option-a.png",
+    "prompt": "Use case: identity-preserve. Create a dedicated TABLET version of the provided selected hero photograph, portrait aspect ratio 3:4. The attached photograph is the edit target: preserve its adult woman around 30, straight black hair, opaque dusty pink long-sleeve knit top, large opaque pale pink heart fully concealing the face, smartphone, and cream curtains with a warm beige vanity room. Keep her seated mirror-selfie pose, but compose the woman from HEAD TO WAIST ONLY in the upper left part of the image, without showing legs. Her free hand rests naturally on the stool beside her. The camera is at normal eye level. Keep the top 12 percent simple for a website header, and make the lower 35 percent a softly blurred cream and pale rose foreground, with quiet center-right curtain space for copy. One fully clothed adult, same natural warm daylight and realistic smartphone photograph. Reframe the scene naturally for a tablet; no text, no logo, no watermark, no other people or face features visible.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-ace44261-b52c-4e52-a441-4d4ea6160cbf.png",
+    "output": "public/assets/images/hero-a-tablet.webp",
+    "generator": "built-in image_gen"
+  },
+  {
+    "key": "hero-a-mobile",
+    "reference": "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\output\\hero-candidates-20261103\\hero-option-a.png",
+    "prompt": "Use case: identity-preserve. Adapt the supplied SELECTED website hero photograph to a new aspect ratio. Preserve the same clearly adult woman, long straight black hair, dusty-pink opaque knit top with modest neckline, ivory skirt, pale pink opaque heart completely covering the face, silver smartphone, seated natural mirror-selfie pose and warm cream-and-beige vanity room. Preserve the selected image's realistic smartphone-photo mood, clothing and natural fabric and hair detail. The supplied image is the edit target and visual identity reference. Recompose and extend the room as needed, not a simple center crop. One adult woman only, fully clothed. Do not reveal facial features under the heart. No text, no logo, no watermark, no graphic frames. Keep space for the existing website header and copy. Create a dedicated SMARTPHONE image in tall portrait 9:16 format. Place the same seated woman and her pink heart sticker in the upper half, with the face sticker near the upper third. Keep her head, smartphone and hand completely inside the frame with margin. Preserve her recognizable long straight black hair, pink knit and ivory skirt. Let the LOWER 40 percent become softly blurred bright cream room foreground with a restrained blush tone and very little detail, reserved for the website headline, price and buttons. The upper 10 percent is also quiet for the logo header. Preserve the original natural seated mirror-selfie mood and warm room; no new people or unrelated decor.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-38aa672a-d737-4ed0-9350-60e5cff105e2.png",
+    "output": "public/assets/images/hero-a-mobile.webp",
+    "generator": "built-in image_gen"
+  }
+]

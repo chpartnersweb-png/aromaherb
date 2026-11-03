@@ -1,13 +1,11 @@
 ---
 import Icon from '../components/Icon.astro';
 import Flower from '../components/Flower.astro';
-import { site, courses, rooms, navigation } from '../data/site';
+import Seo from '../components/Seo.astro';
+import { site, courses, rooms, roomPhotos, navigation } from '../data/site';
 import { therapists } from '../data/therapists';
 import '../styles/global.css';
 
-const title = `${site.name}｜熊本・水前寺・本荘のオイルマッサージ`;
-const canonical = Astro.site ? new URL('/', Astro.site).href : undefined;
-const ogImage = Astro.site ? new URL('/assets/brand/ogp.png', Astro.site).href : '/assets/brand/ogp.png';
 ---
 
 <!doctype html>
@@ -16,30 +14,15 @@ const ogImage = Astro.site ? new URL('/assets/brand/ogp.png', Astro.site).href :
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#FFF1F4" />
-    <meta name="description" content={site.description} />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-    {canonical && <link rel="canonical" href={canonical} />}
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="ja_JP" />
-    <meta property="og:site_name" content={site.name} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={site.description} />
-    {canonical && <meta property="og:url" content={canonical} />}
-    <meta property="og:image" content={ogImage} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="aromaherb-あろま～ぶの店舗名入りロゴ" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={site.description} />
-    <meta name="twitter:image" content={ogImage} />
+    <Seo />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
     <link rel="alternate icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="preload" as="image" href="/assets/images/hero-cast-mobile-v2.webp" media="(max-aspect-ratio: 4/5)" />
-    <link rel="preload" as="image" href="/assets/images/hero-cast-desktop-v2.webp" media="(min-aspect-ratio: 4/5)" />
+    <link rel="preload" as="image" href="/assets/images/hero-a-mobile.webp" media="(max-width: 600px)" />
+    <link rel="preload" as="image" href="/assets/images/hero-a-tablet.webp" media="(min-width: 601px) and (max-width: 1100px)" />
+    <link rel="preload" as="image" href="/assets/images/hero-a-desktop.webp" media="(min-width: 1101px)" />
   </head>
   <body>
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -69,12 +52,13 @@ const ogImage = Astro.site ? new URL('/assets/brand/ogp.png', Astro.site).href :
     <main id="main">
       <section class="hero" id="home" aria-labelledby="hero-title">
         <picture class="hero-picture">
-          <source media="(max-aspect-ratio: 4/5)" srcset="/assets/images/hero-cast-mobile-v2.webp" />
-          <img src="/assets/images/hero-cast-desktop-v2.webp" alt="ベージュの室内で、淡いピンクのハートで顔を隠した女性の自撮り風イメージ。実際のセラピストや店舗の写真ではありません。" width="1672" height="941" fetchpriority="high" decoding="async" />
+          <source media="(max-width: 600px)" srcset="/assets/images/hero-a-mobile.webp" />
+          <source media="(max-width: 1100px)" srcset="/assets/images/hero-a-tablet.webp" />
+          <img src="/assets/images/hero-a-desktop.webp" alt="ベージュの室内で腰掛け、ピンクのハートで顔を隠した女性の自撮り風イメージ。実際のセラピストや店舗の写真ではありません。" width="1672" height="941" fetchpriority="high" decoding="async" />
         </picture>
         <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="hero-location">KUMAMOTO <span>／</span> SUIZENJI · HONJO</p>
+          <p class="hero-location">熊本・水前寺／本荘のメンズエステ</p>
           <span class="hero-rule" aria-hidden="true"></span>
           <h1 id="hero-title">心ほどける、<br />やさしいひととき。</h1>
           <p class="hero-description">日常を少し離れて、<br class="mobile-break" />あなただけの癒しの時間を。</p>
@@ -152,6 +136,13 @@ const ogImage = Astro.site ? new URL('/assets/brand/ogp.png', Astro.site).href :
       <section class="section access-section" id="access" aria-labelledby="access-title">
         <div class="container">
           <div class="section-heading"><div><p class="eyebrow">ROOM & ACCESS</p><h2 id="access-title">お部屋・アクセス</h2></div><p class="section-lead">熊本・水前寺と本荘。<br />詳しいご案内はお電話でお問い合わせください。</p><Flower class="heading-flower" /></div>
+          <div class="room-gallery" aria-label="お部屋の写真">
+            {roomPhotos.map((photo, index) => (
+              <figure class="room-photo">
+                <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} sizes={index === 0 ? '(max-width: 600px) 92vw, 46vw' : '(max-width: 600px) 44vw, 25vw'} loading="lazy" decoding="async" />
+              </figure>
+            ))}
+          </div>
           <div class="rooms">
             {rooms.map(room => <article class="room"><span class="room-number" aria-hidden="true">{room.number}</span><div class="room-title"><span>ROOM {room.number}</span><h3>{room.name}<small>{room.english}</small></h3></div><p class="room-address"><Icon name="pin" size={19} /><span>{room.address}</span></p><p class="room-access">{room.access}</p></article>)}
           </div>

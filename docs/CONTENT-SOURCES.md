@@ -25,12 +25,23 @@
 - ブログの背景画像、花の画像、人物写真、Amebaのロゴ・共通UIは転載していない。
 - Instagramの投稿は取得できていない。投稿画像を使用していない。
 
+## 提供された室内写真
+
+- `src/assets/line_oa_chat_261102_175531.jpg`
+- `src/assets/line_oa_chat_261102_175534.jpg`
+- `src/assets/line_oa_chat_261102_175535.jpg`
+
+ユーザーが室内写真として指定した3枚を、色や内容を変えずWebPへ変換し、`public/assets/images/room-interior-01.webp`〜`room-interior-03.webp`に保存。
+「お部屋・アクセス」欄の共通ギャラリーに掲載する。写真と水前寺・本荘の部屋との対応は未指定のため、個別の部屋名を写真に付けていない。
+ヒーローの生成された室内はイメージ、こちらの3枚は提供された室内写真として区別する。
+
 ## 専用素材
 
-- ヒーロー人物画像2点：built-in `image_gen`で専用生成。実際の人物や店舗を再現した写真ではない。
-- 現在のヒーロー：`hero-cast-desktop-v2.webp`、`hero-cast-mobile-v2.webp`。ユーザー提供のcast02・cast05を色味・照明・ニット・ハートの表現の参考にし、専用の新しい構図で生成した。
+- 現在のヒーロー3点：ユーザーが選択したA案と、それを参照してbuilt-in `image_gen`で生成したタブレット・スマートフォン専用画像。実際の人物や店舗を再現した写真ではない。
+- デスクトップ：`hero-a-desktop.webp`。選択された元画像は`output/hero-candidates-20261103/hero-option-a.png`。
+- タブレット：`hero-a-tablet.webp`。スマートフォン：`hero-a-mobile.webp`。A案の髪型・衣装・ハート・座った自撮り・室内の雰囲気を引き継いだ構図。
 - 生成した元PNGは`src/assets/hero/`に保存。以前の`hero-desktop.webp`・`hero-mobile.webp`は残しているが、ページからは参照しない。
-- 新ヒーローのブリーフ：`docs/hero-image-brief.md`。生成プロンプト・参照画像・生成元と保存先の記録：`docs/hero-image-prompts-v2.json`。
+- 現行ヒーローのブリーフ：`docs/hero-image-brief.md`。生成プロンプト・参照画像・生成元と保存先の記録：`docs/hero-a-device-prompts.json`。以前の生成記録も削除せず保持。
 - 在籍一覧用：ユーザーがこのチャットで指定した`cast02.png`〜`cast07.png`。今回は新たな人物画像を生成していない。
 - 提供元：`C:/Users/callt/Documents/ChatGPT/Healing/src/assets/images/`。提供元のファイルやHealingプロジェクトは変更していない。
 - 元PNGのコピー：`src/assets/therapists/`。配信用WebPと`-card.webp`の軽量版：`public/assets/images/`。

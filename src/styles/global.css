@@ -72,7 +72,7 @@ ul { padding: 0; list-style: none; }
 .mobile-menu a small { color: var(--rose); font-family: Georgia, serif; font-size: 15px; }
 .mobile-menu .mobile-menu-phone { border: 0; justify-content: center; color: var(--rose-dark); font-size: 21px; }
 
-/* Two dedicated hero compositions are selected by viewport aspect ratio. */
+/* Desktop, tablet and phone have dedicated hero images selected by width. */
 .hero { position: relative; height: 100vh; height: 100svh; min-height: 640px; display: grid; place-items: center; isolation: isolate; overflow: hidden; background: var(--blush); }
 .hero-picture, .hero-picture img, .hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero-picture { z-index: -3; }
@@ -119,6 +119,11 @@ ul { padding: 0; list-style: none; }
 .menu-section { background: linear-gradient(130deg, #fff, #fffafc); overflow: hidden; }
 
 .access-section { border-top: 1px solid #f3e8ec; overflow: hidden; }
+.room-gallery { display: grid; grid-template-columns: 16fr 9fr 9fr; gap: 16px; align-items: stretch; }
+.room-photo { margin: 0; aspect-ratio: 3 / 4; overflow: hidden; border-radius: 3px; background: #eee2db; }
+.room-photo:first-child { aspect-ratio: 4 / 3; }
+.room-photo img { width: 100%; height: 100%; object-fit: cover; }
+.room-gallery + .rooms { margin-top: 34px; }
 .rooms { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; }
 .room { position: relative; isolation: isolate; padding: 26px 0 28px; border-top: 1px solid #dcb4c0; border-bottom: 1px solid #ecdbe1; overflow: hidden; }
 .room-number { position: absolute; right: 8px; top: -10px; color: #f7e8ee; font-family: Georgia, serif; font-size: 123px; line-height: 1; font-style: italic; z-index: -1; }
@@ -292,6 +297,9 @@ ul { padding: 0; list-style: none; }
   .round-arrow { width: 25px; height: 25px; }
   .round-arrow svg { width: 15px; }
   .image-disclaimer { margin-top: 28px; gap: 7px; font-size: 10px; }
+  .room-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .room-photo:first-child { grid-column: 1 / -1; }
+  .room-gallery + .rooms { margin-top: 27px; }
   .rooms { display: block; }
   .room { margin-top: 24px; padding-block: 21px; }
   .room-title h3 { font-size: 27px; }
@@ -490,6 +498,29 @@ ul { padding: 0; list-style: none; }
   .profile-landscape .dialog-portrait img { max-height: 50svh; }
   .profile-landscape .dialog-content { padding: 25px 23px 28px; }
   .dialog-portrait .image-note { bottom: 8px; }
+}
+
+/* Keep the copy in the quiet area of the selected seated-selfie composition. */
+@media (min-width: 1101px) {
+  .hero-content { transform: translateX(8vw); }
+  .hero-shade { background: radial-gradient(ellipse at 60% 50%, #fff8f54d, transparent 58%), linear-gradient(0deg, #fff5f85c, transparent 30%); }
+}
+@media (min-width: 601px) and (max-width: 1100px) {
+  .hero-picture img { object-position: center 18%; }
+}
+@media (min-width: 601px) and (max-width: 1100px) and (orientation: portrait) {
+  .hero { align-items: end; }
+  .hero-picture img { object-position: center top; }
+  .hero-content { width: 100%; max-width: 650px; padding: 0 24px 65px; transform: none; }
+  .hero-rule { display: none; }
+  .hero h1 { margin-top: 14px; font-size: clamp(32px, 4.4vw, 45px); line-height: 1.65; }
+  .hero-shade { background: linear-gradient(180deg, #fff6f908 35%, #fff7fa40 49%, #fff5f8e8 72%, #fff6f9f5); }
+}
+@media (min-width: 601px) and (max-width: 1100px) and (orientation: landscape) {
+  .hero-content { max-width: 56vw; padding-top: 100px; padding-bottom: 30px; transform: translateX(13vw); }
+  .hero h1 { font-size: clamp(28px, 3.6vw, 39px); line-height: 1.6; }
+  .hero-description { margin-top: 12px; }
+  .hero-price { margin-block: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

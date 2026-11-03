@@ -12,6 +12,7 @@
 | --- | --- |
 | 店舗名・電話・営業時間・SNS | `src/data/site.ts` |
 | コース料金・公開住所・アクセス | `src/data/site.ts` |
+| 室内ギャラリーの画像・説明 | `src/data/site.ts`の`roomPhotos` |
 | セラピストの名前・身長・紹介文 | `src/data/therapists.ts` |
 | 添付画像の元PNG | `src/assets/therapists/` |
 | 名前と添付画像の仮配置記録 | `docs/cast-image-map.json` |
@@ -39,14 +40,22 @@
 
 ## ヒーロー
 
-- `hero-cast-desktop-v2.webp`：横長の専用画像。
-- `hero-cast-mobile-v2.webp`：縦長の専用画像。
-- cast02・cast05のベージュの室内、柔らかな光、ニット、淡いピンクのハートを参考に新規生成しています。
-- 元PNGは`src/assets/hero/`、生成記録は`docs/hero-image-prompts-v2.json`に保存しています。
-- 画面比率が4:5以下のとき、縦長画像を表示します。
+- `hero-a-desktop.webp`：ユーザーが選択した1枚目・A案。画面幅1100pxを超える場合に使用します。
+- `hero-a-tablet.webp`：A案を参照して生成した3:4のタブレット専用画像。画面幅600pxを超え1100px以下の場合に使用します。
+- `hero-a-mobile.webp`：A案を参照して生成した9:16のスマートフォン専用画像。画面幅600px以下の場合に使用します。
+- 元PNGは`src/assets/hero/`、生成記録は`docs/hero-a-device-prompts.json`に保存しています。
+- 画像の切り替えは`src/pages/index.astro`のpictureとプリロード、文字の位置は`src/styles/global.css`で管理しています。
+- デスクトップは画像右寄りの余白へコピーを配置し、タブレットは縦横の向きに応じて文字と画像の位置を調整します。
 - 基本の高さは100svhです。小さな画面では文字やボタンが隠れないよう最小高さを設けています。
 - ヘッダーはヒーローの上に重ねているため、ヘッダー分の高さを別途加えていません。
 - コピー・ボタン・注記は画像の一部ではなく、HTMLで重ねています。
+
+## 室内ギャラリー
+
+- 提供された室内写真3枚を「お部屋・アクセス」欄に掲載しています。
+- 元画像は`src/assets/line_oa_chat_261102_17553*.jpg`、配信用は`public/assets/images/room-interior-01.webp`〜`room-interior-03.webp`です。
+- パソコンでは3枚を横に並べ、スマートフォンでは横長写真を大きく、その下に縦長2枚を並べています。
+- 写真と各部屋の対応は未指定のため、共通ギャラリーとして扱っています。
 
 ## 出勤・求人
 

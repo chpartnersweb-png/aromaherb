@@ -1,0 +1,41 @@
+[
+  {
+    "key": "hero-option-a",
+    "title": "A｜座った自撮り・ロングヘア",
+    "references": [
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast02.png",
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast03.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Create a NEW wide LANDSCAPE 16:9 photographic website hero candidate. The attached images are STYLE REFERENCES: preserve their warm beige/cream room, soft everyday smartphone mirror-selfie realism, casual knit clothing, ivory skirt, natural hair texture and large pale pink heart stickers completely hiding all facial features. Keep this same photographic mood. The women are clearly adults around age 30, fully clothed in opaque ordinary casual outfits, in relaxed everyday poses. The imagery is a fictional illustrative portrait, not a factual staff or location photograph. Natural gentle daylight, cream curtains, pale wood and small flowers, restrained blush pink accents. Include an actual smartphone as part of a mirror selfie. No text, no logos, no watermark, no UI, no typography. Avoid the previous generic pair of long-haired women standing symmetrically with phones at shoulder height. Different haircut, camera angle, posture and composition are essential. ONE woman with long STRAIGHT BLACK hair and side-swept bangs, wearing a dusty-blush opaque fine-knit top with a modest neckline and an ivory skirt. She is seated naturally on a cream vanity stool in the LEFT THIRD, her knees turned slightly toward the center, one hand holding her phone in front of the mirror near her cheek, the other resting on the stool. Frame from head to knees at a natural eye-level mirror angle. Her entire face is hidden by an opaque pale pink heart. Keep the central and right half quiet, softly lit cream curtains and vanity details for later website copy, without dividing the image into separate panels. A warm authentic casual selfie, with believable camera perspective and soft room texture.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-c0ba5b14-59bd-4f22-be53-6ff5ce6a7e73.png",
+    "output": "output/hero-candidates-20261103/hero-option-a.png",
+    "generator": "built-in image_gen",
+    "purpose": "比較用ヒーロー候補。サイト未反映。"
+  },
+  {
+    "key": "hero-option-b",
+    "title": "B｜近めの自撮り・ボブヘア",
+    "references": [
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast02.png",
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast03.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Create a NEW wide LANDSCAPE 16:9 photographic website hero candidate. The attached images are STYLE REFERENCES: preserve their warm beige/cream room, soft everyday smartphone mirror-selfie realism, casual knit clothing, ivory skirt, natural hair texture and large pale pink heart stickers completely hiding all facial features. Keep this same photographic mood. The women are clearly adults around age 30, fully clothed in opaque ordinary casual outfits, in relaxed everyday poses. The imagery is a fictional illustrative portrait, not a factual staff or location photograph. Natural gentle daylight, cream curtains, pale wood and small flowers, restrained blush pink accents. Include an actual smartphone as part of a mirror selfie. No text, no logos, no watermark, no UI, no typography. Avoid the previous generic pair of long-haired women standing symmetrically with phones at shoulder height. Different haircut, camera angle, posture and composition are essential. ONE woman with a soft SHOULDER-LENGTH DARK BROWN BOB and light wispy bangs, wearing an opaque cream knit top with a pale rose cardigan and a modest covered neckline. A closer mirror-selfie composition from head to waist, taken at a slightly HIGH DIAGONAL angle; her body is angled rather than front-facing. Her phone is held to one side of her face, and her other hand lightly tucks her hair behind her ear. The entire face is covered by a large opaque light-pink heart sticker. Place the woman in the RIGHT THIRD, with the center and left remaining a softly out-of-focus warm beige wall and curtain for later copy. A natural phone photo, subtle perspective tilt, warm neutral lighting, no stiff standing catalog pose.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-4e65f0f8-cc90-4527-9672-7556c3bdaa7f.png",
+    "output": "output/hero-candidates-20261103/hero-option-b.png",
+    "generator": "built-in image_gen",
+    "purpose": "比較用ヒーロー候補。サイト未反映。"
+  },
+  {
+    "key": "hero-option-c",
+    "title": "C｜高低差を付けた2人の自撮り",
+    "references": [
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast02.png",
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast03.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Create a NEW wide LANDSCAPE 16:9 photographic website hero candidate. The attached images are STYLE REFERENCES: preserve their warm beige/cream room, soft everyday smartphone mirror-selfie realism, casual knit clothing, ivory skirt, natural hair texture and large pale pink heart stickers completely hiding all facial features. Keep this same photographic mood. The women are clearly adults around age 30, fully clothed in opaque ordinary casual outfits, in relaxed everyday poses. The imagery is a fictional illustrative portrait, not a factual staff or location photograph. Natural gentle daylight, cream curtains, pale wood and small flowers, restrained blush pink accents. Include an actual smartphone as part of a mirror selfie. No text, no logos, no watermark, no UI, no typography. Avoid the previous generic pair of long-haired women standing symmetrically with phones at shoulder height. Different haircut, camera angle, posture and composition are essential. TWO visually DISTINCT adult women in an ASYMMETRIC mirror-selfie composition with different heights in the frame, both grouped toward the LEFT HALF rather than symmetrically separated. In front, one woman with long gently waved BLACK hair in an opaque ivory long-sleeve knit top and muted pink skirt is seated upright on a vanity stool, holding a silver phone near her cheek. Slightly behind her, a woman with a STRAIGHT CHESTNUT SHOULDER-LENGTH hairstyle in a muted taupe-pink opaque knit top stands casually with one hand on the chair back, her other hand holding a cream phone lower near chest level. Both faces are completely hidden by separate opaque pale pink heart stickers. Keep the center-right area calm and light cream for later copy. This is a friendly everyday mirror-selfie portrait in one coherent beige room; natural poses and different hair, no matching outfits, no duplicated women, no perfectly mirrored stances.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-87a2d498-8a6b-4c7d-8f66-df6254c07c46.png",
+    "output": "output/hero-candidates-20261103/hero-option-c.png",
+    "generator": "built-in image_gen",
+    "purpose": "比較用ヒーロー候補。サイト未反映。"
+  }
+]

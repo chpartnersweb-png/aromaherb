@@ -1,7 +1,8 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { SITE_URL } from './src/config/site.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-  site: process.env.PUBLIC_SITE_URL || undefined,
+  site: SITE_URL,
 });
