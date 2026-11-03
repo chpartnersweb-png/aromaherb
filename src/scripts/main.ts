@@ -28,8 +28,16 @@ window.matchMedia('(min-width: 1101px)').addEventListener('change', event => {
   if (event.matches) setMenu(false);
 });
 
-const updateHeader = () => header?.classList.toggle('is-scrolled', window.scrollY > 24);
-window.addEventListener('scroll', updateHeader, { passive: true });
+const updateHeader = () => header?.classList.toggle('is-scrolled', window.scrollY > 8);
+let headerFrame: number | undefined;
+window.addEventListener('scroll', () => {
+  if (headerFrame !== undefined) return;
+  headerFrame = window.requestAnimationFrame(() => {
+    headerFrame = undefined;
+    updateHeader();
+  });
+}, { passive: true });
+window.addEventListener('pageshow', updateHeader);
 updateHeader();
 
 document.querySelectorAll<HTMLButtonElement>('[data-profile]').forEach(button => {

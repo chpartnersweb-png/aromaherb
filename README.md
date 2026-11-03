@@ -13,6 +13,8 @@
 - [制作計画・合意事項](docs/lp-plan.md)
 - [構成の見直し・添付画像の対応](docs/restructure-plan.md)
 - [編集・運用ガイド](docs/EDITING.md)
+- [SEO設定・Search Consoleの手順](docs/SEO.md)
+- [透明ヘッダー・アニメーション](docs/ANIMATIONS.md)
 - [情報・画像の出典](docs/CONTENT-SOURCES.md)
 - [画像生成のプロンプト](docs/image-prompts.json)
 
@@ -28,4 +30,5 @@ npm run dev -- --background
 
 管理コマンドは `astro dev status`、`astro dev logs`、`astro dev stop` です。
 
-公開URLが決まったら、環境変数 `PUBLIC_SITE_URL` を設定してください。
+正式URLは `https://aromaherb.pages.dev/` です。`src/config/site.mjs` で管理しています。
+SEO設定はソースへ反映済みです。公開先への反映には再ビルド・再デプロイが必要です。

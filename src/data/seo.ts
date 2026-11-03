@@ -15,6 +15,10 @@ const websiteId = absoluteUrl('/#website');
 const webpageId = absoluteUrl('/#webpage');
 const catalogId = absoluteUrl('/#menu');
 const roomId = (number: string) => absoluteUrl(`/#room-${number}`);
+const postalAddress = (streetAddress: string) => ({
+  '@type': 'PostalAddress', addressCountry: 'JP',
+  addressRegion: '熊本県', addressLocality: '熊本市中央区', streetAddress,
+});
 
 // 未公開の詳細住所、終業時刻、評価、資格、人物の実写真等は補わない。
 // OrganizationとPlaceで、確認できる店舗・お部屋の情報だけを表現する。
@@ -48,17 +52,14 @@ export const structuredData = {
       },
       image: roomPhotos.map(photo => absoluteUrl(photo.src)),
       sameAs: [site.instagram, site.blog],
+      address: rooms.map(room => postalAddress(room.streetAddress)),
       location: rooms.map(room => ({ '@id': roomId(room.number) })),
       hasOfferCatalog: { '@id': catalogId },
     },
     ...rooms.map(room => ({
       '@type': 'Place', '@id': roomId(room.number),
       name: `${room.name}のお部屋`, url: absoluteUrl('/#access'),
-      address: {
-        '@type': 'PostalAddress', addressCountry: 'JP',
-        addressRegion: '熊本県', addressLocality: '熊本市中央区',
-        streetAddress: room.streetAddress,
-      },
+      address: postalAddress(room.streetAddress),
     })),
     {
       '@type': 'Service', '@id': absoluteUrl('/#oil-massage'),

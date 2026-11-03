@@ -20,6 +20,8 @@
 | ページ本文・求人案内・各セクション | `src/pages/index.astro` |
 | 配色・文字・余白・画面サイズごとの配置 | `src/styles/global.css` |
 | スマホメニュー・プロフィールの開閉 | `src/scripts/main.ts` |
+| ヒーロー・スクロール時の表示演出 | `src/scripts/motion.ts` |
+| 透明ヘッダー・アニメーションの仕様 | `docs/ANIMATIONS.md` |
 | ロゴ原稿 | `public/assets/brand/logo.svg` |
 | ロゴPNG・OGP | `public/assets/brand/` |
 | ヒーロー・在籍一覧の画像 | `public/assets/images/` |
@@ -66,9 +68,10 @@
 
 ## 公開URL
 
-公開先が決まったら、環境変数`PUBLIC_SITE_URL`にルートの絶対URLを設定してください。
-`.env.example`に設定欄があります。設定後のビルドでcanonical・OGP画像の絶対URLが反映されます。
-未設定時は架空の公開URLを出力せず、OGP画像はルート相対パスです。SNSでの共有前に公開URLを設定してください。
+正式URLは`https://aromaherb.pages.dev/`です。`src/config/site.mjs`で管理しています。
+Astro設定、canonical、OGP、構造化データ、robots.txt、サイトマップは同じURLを使います。`PUBLIC_SITE_URL`の設定は不要です。
+SEOの編集箇所とSearch Consoleの手順は`docs/SEO.md`を参照してください。
+Search ConsoleのHTMLタグ方式を使う場合は、`PUBLIC_GOOGLE_SITE_VERIFICATION`へ発行されたcontent属性の値を設定してください。
 
 ## ロゴ・favicon・OGPの原稿
 
