@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ami",
+    "sourceName": "cast02.png",
+    "originalWidth": 1086,
+    "originalHeight": 1448,
+    "image": "/assets/images/cast02.webp",
+    "assignment": "掲載順に仮配置。本人との対応を示すものではない。"
+  },
+  {
+    "id": "anna",
+    "sourceName": "cast03.png",
+    "originalWidth": 1086,
+    "originalHeight": 1448,
+    "image": "/assets/images/cast03.webp",
+    "assignment": "掲載順に仮配置。本人との対応を示すものではない。"
+  },
+  {
+    "id": "uta",
+    "sourceName": "cast04.png",
+    "originalWidth": 1448,
+    "originalHeight": 1086,
+    "image": "/assets/images/cast04.webp",
+    "assignment": "掲載順に仮配置。本人との対応を示すものではない。"
+  },
+  {
+    "id": "sakura",
+    "sourceName": "cast05.png",
+    "originalWidth": 1086,
+    "originalHeight": 1448,
+    "image": "/assets/images/cast05.webp",
+    "assignment": "掲載順に仮配置。本人との対応を示すものではない。"
+  },
+  {
+    "id": "maika",
+    "sourceName": "cast06.png",
+    "originalWidth": 1448,
+    "originalHeight": 1086,
+    "image": "/assets/images/cast06.webp",
+    "assignment": "掲載順に仮配置。本人との対応を示すものではない。"
+  },
+  {
+    "id": "rei",
+    "sourceName": "cast07.png",
+    "originalWidth": 1086,
+    "originalHeight": 1448,
+    "image": "/assets/images/cast07.webp",
+    "assignment": "掲載順に仮配置。本人との対応を示すものではない。"
+  }
+]

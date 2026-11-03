@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="142" viewBox="0 0 520 142" role="img" aria-labelledby="title">
+  <title id="title">aromaherb-あろま～ぶ</title>
+  <defs><linearGradient id="petal" x2="1" y2="1"><stop stop-color="#FFE4EA"/><stop offset="1" stop-color="#F77C90"/></linearGradient></defs>
+  <g transform="translate(8 16) scale(.95)" fill="url(#petal)">
+    <path id="p" d="M50 50C27 37 30 6 49 7C69 8 73 31 50 50Z"/>
+    <use href="#p" transform="rotate(72 50 50)"/><use href="#p" transform="rotate(144 50 50)"/><use href="#p" transform="rotate(216 50 50)"/><use href="#p" transform="rotate(288 50 50)"/>
+    <circle cx="50" cy="50" r="5" fill="#F1CC7B"/>
+  </g>
+  <text x="118" y="78" fill="#C44363" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-style="italic" letter-spacing="-2">aromaherb</text>
+  <text x="245" y="117" text-anchor="middle" fill="#AD4A64" font-family="'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif" font-size="22" letter-spacing="5">-あろま～ぶ</text>
+</svg>

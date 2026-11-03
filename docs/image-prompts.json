@@ -1,0 +1,66 @@
+[
+  {
+    "key": "hero-desktop",
+    "prompt": "Use case: photorealistic-natural. Asset type: dedicated full-bleed landscape website hero photograph, very wide 16:9. A bright soft feminine Japanese oil relaxation salon brand mood in white, blush pink and coral pink. Two completely fictional Japanese adult women clearly in their late 20s or 30s, each taking a relaxed mirror selfie, one near the left third and one near the right third of a single airy white and pale pink interior with soft curtains. Both fully dressed in tasteful opaque pastel blouses and skirts, natural casual elegant clothing, no uniforms. A large opaque coral pink heart sticker COMPLETELY covers each face from forehead through chin, no identifiable facial features visible. Soft believable smartphone photography, delicate daylight, realistic hair and hands, gentle confident poses. A little soft-focus pink five-petal floral and petal detail near far outer corners. Keep the central 35 percent of the picture visually calm pale blush with negative space for website headline overlay, coherent photographic composition across entire image. No text, no logo, no letters, no watermark. Not an actual staff or room photograph. No nudity or suggestive poses. High quality, natural skin tones, premium but approachable.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-c3687403-9fe4-4cb8-8378-4f29b323cb05.png",
+    "output": "public/assets/images/hero-desktop.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  },
+  {
+    "key": "hero-mobile",
+    "prompt": "Use case: photorealistic-natural. Asset type: dedicated full-screen MOBILE website hero, tall portrait 9:16. Bright white and pale pink Japanese oil relaxation salon atmosphere. One completely fictional Japanese adult woman clearly 30 years old, long softly waved dark brown hair, wearing an opaque elegant ivory blouse and pale pink long skirt, standing naturally taking a mirror selfie in a softly sunlit airy pastel pink room. Her entire face, forehead through chin, is covered by a large solid coral pink heart sticker with NO facial features showing. Show upper body in upper 60 percent, keep main subject away from extreme edges. Lower 35 percent transitions naturally into out of focus white and blush foreground for website copy, with a few softly blurred pink flower petals at far edges. Gentle natural phone photograph with realistic hands, skin and fabric, no text, no logos, no watermark. Fully clothed, nonsexual, fictional person and room. Not the desktop photograph, purpose-composed vertical image.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-c69918f8-cf01-48e9-8fea-9eb04e0392e3.png",
+    "output": "public/assets/images/hero-mobile.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  },
+  {
+    "key": "therapist-ami",
+    "prompt": "Use case: photorealistic-natural. Asset type: one vertical portrait photograph for a Japanese relaxation salon website profile card, portrait 3:4 ratio. A completely fictional adult Japanese woman clearly in her 30s, long dark wavy hair, dusty pink opaque button blouse, ivory skirt, white smartphone, warm white curtains and pink flower on a shelf. Natural mirror selfie framing from head to hips, modest relaxed standing pose, fully clothed, realistic flattering smartphone photo, realistic hair hands and fabric, soft daylight, white and blush pink palette. Her ENTIRE FACE including eyes nose mouth and chin is fully hidden by a single opaque coral pink heart sticker. The heart is large enough to cover all facial features. Keep head including sticker inside the frame with margin, body centered. One person only. This is clearly an illustrative fictional portrait, not an actual worker. No text, numbers, captions, logo, collage or watermark. No nudity, no lingerie, no erotic pose.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-22fc6655-3e3c-48b5-8c9b-51f970500c32.png",
+    "output": "public/assets/images/therapist-ami.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  },
+  {
+    "key": "therapist-anna",
+    "prompt": "Use case: photorealistic-natural. Asset type: one vertical portrait photograph for a Japanese relaxation salon website profile card, portrait 3:4 ratio. A completely fictional adult Japanese woman clearly in her 30s, shoulder-length dark brown bob, ivory opaque knit top and pink cardigan, rose-colored smartphone, pale pink wall and small plant. Natural mirror selfie framing from head to hips, modest relaxed standing pose, fully clothed, realistic flattering smartphone photo, realistic hair hands and fabric, soft daylight, white and blush pink palette. Her ENTIRE FACE including eyes nose mouth and chin is fully hidden by a single opaque coral pink heart sticker. The heart is large enough to cover all facial features. Keep head including sticker inside the frame with margin, body centered. One person only. This is clearly an illustrative fictional portrait, not an actual worker. No text, numbers, captions, logo, collage or watermark. No nudity, no lingerie, no erotic pose.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-f41b6004-6753-44b0-a5cf-69e6b7f37aeb.png",
+    "output": "public/assets/images/therapist-anna.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  },
+  {
+    "key": "therapist-uta",
+    "prompt": "Use case: photorealistic-natural. Asset type: one vertical portrait photograph for a Japanese relaxation salon website profile card, portrait 3:4 ratio. A completely fictional adult Japanese woman clearly in her 30s, straight shoulder-length black hair, pale peach opaque blouse and cream skirt, white smartphone, bright window and soft linen curtains. Natural mirror selfie framing from head to hips, modest relaxed standing pose, fully clothed, realistic flattering smartphone photo, realistic hair hands and fabric, soft daylight, white and blush pink palette. Her ENTIRE FACE including eyes nose mouth and chin is fully hidden by a single opaque coral pink heart sticker. The heart is large enough to cover all facial features. Keep head including sticker inside the frame with margin, body centered. One person only. This is clearly an illustrative fictional portrait, not an actual worker. No text, numbers, captions, logo, collage or watermark. No nudity, no lingerie, no erotic pose.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-d4e7c584-83c5-4c79-94bd-67e1e9fe784b.png",
+    "output": "public/assets/images/therapist-uta.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  },
+  {
+    "key": "therapist-sakura",
+    "prompt": "Use case: photorealistic-natural. Asset type: one vertical portrait photograph for a Japanese relaxation salon website profile card, portrait 3:4 ratio. A completely fictional adult Japanese woman clearly in her 30s, long softly waved chestnut brown hair, elegant white opaque blouse and muted rose skirt, beige smartphone, light warm grey interior. Natural mirror selfie framing from head to hips, modest relaxed standing pose, fully clothed, realistic flattering smartphone photo, realistic hair hands and fabric, soft daylight, white and blush pink palette. Her ENTIRE FACE including eyes nose mouth and chin is fully hidden by a single opaque coral pink heart sticker. The heart is large enough to cover all facial features. Keep head including sticker inside the frame with margin, body centered. One person only. This is clearly an illustrative fictional portrait, not an actual worker. No text, numbers, captions, logo, collage or watermark. No nudity, no lingerie, no erotic pose.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-a114c0c3-5f1c-4c34-a4f7-f04bd6f69416.png",
+    "output": "public/assets/images/therapist-sakura.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  },
+  {
+    "key": "therapist-maika",
+    "prompt": "Use case: photorealistic-natural. Asset type: one vertical portrait photograph for a Japanese relaxation salon website profile card, portrait 3:4 ratio. A completely fictional adult Japanese woman clearly in her 30s, long straight dark brown hair, blush pink opaque knit top and ivory trousers, ivory smartphone, white wall and a soft pink curtain. Natural mirror selfie framing from head to hips, modest relaxed standing pose, fully clothed, realistic flattering smartphone photo, realistic hair hands and fabric, soft daylight, white and blush pink palette. Her ENTIRE FACE including eyes nose mouth and chin is fully hidden by a single opaque coral pink heart sticker. The heart is large enough to cover all facial features. Keep head including sticker inside the frame with margin, body centered. One person only. This is clearly an illustrative fictional portrait, not an actual worker. No text, numbers, captions, logo, collage or watermark. No nudity, no lingerie, no erotic pose.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-b36cfe38-39cd-4001-b5af-8eb9d613b3fb.png",
+    "output": "public/assets/images/therapist-maika.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  },
+  {
+    "key": "therapist-rei",
+    "prompt": "Use case: photorealistic-natural. Asset type: one vertical portrait photograph for a Japanese relaxation salon website profile card, portrait 3:4 ratio. A completely fictional adult Japanese woman clearly in her 30s, medium length softly curled brown hair, cream opaque blouse with long sleeves and pale pink skirt, light pink smartphone, white room with subtle flowers. Natural mirror selfie framing from head to hips, modest relaxed standing pose, fully clothed, realistic flattering smartphone photo, realistic hair hands and fabric, soft daylight, white and blush pink palette. Her ENTIRE FACE including eyes nose mouth and chin is fully hidden by a single opaque coral pink heart sticker. The heart is large enough to cover all facial features. Keep head including sticker inside the frame with margin, body centered. One person only. This is clearly an illustrative fictional portrait, not an actual worker. No text, numbers, captions, logo, collage or watermark. No nudity, no lingerie, no erotic pose.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-92b0404d-33e2-496b-8375-e866a59c488a.png",
+    "output": "public/assets/images/therapist-rei.webp",
+    "generator": "built-in image_gen",
+    "fictional": true
+  }
+]

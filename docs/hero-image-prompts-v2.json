@@ -1,0 +1,26 @@
+[
+  {
+    "key": "hero-cast-desktop-v2",
+    "references": [
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast02.png",
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast05.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: website hero photograph. Generate a wholesome casual lifestyle portrait in a warm cream-and-beige living room with a window and linen curtains. The attached two photos are COLOR AND LIGHTING REFERENCES ONLY: warm beige room, soft natural smartphone photography, dark brown hair, pastel pink opaque heart stickers. Create new adults and a new composition. The adult women are clearly about 30 years old and fully dressed in modest loose opaque high crew-neck knit sweaters or cardigans and long skirts, with shoulders and chest fully covered. Relaxed ordinary mirror selfie holding a phone at shoulder height, natural hands. Each face is completely hidden by one flat light-pink heart sticker. Keep hair, phone and sweater realistic. Calm friendly everyday mood. No text, logo, watermark or collage borders. Wide landscape 16:9 composition. Two women at the far left and far right, one wearing a cream crew-neck sweater and one wearing a muted pink crew-neck cardigan, framed head to waist. A broad empty softly lit beige curtain in the central 40 percent is reserved for overlaid website text, with no people in the center. A seamless unified photographic scene. Keep the top 12 percent quiet for a header. Natural window light and a little blush color, minimal background objects.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-61a006ca-8feb-443f-817f-5b700235f073.png",
+    "output": "public/assets/images/hero-cast-desktop-v2.webp",
+    "generator": "built-in image_gen",
+    "created": "2026-11-03"
+  },
+  {
+    "key": "hero-cast-mobile-v2",
+    "references": [
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast02.png",
+      "C:\\Users\\callt\\Desktop\\aromaherbあろま～ぶ\\src\\assets\\therapists\\cast05.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: website hero photograph. Generate a wholesome casual lifestyle portrait in a warm cream-and-beige living room with a window and linen curtains. The attached two photos are COLOR AND LIGHTING REFERENCES ONLY: warm beige room, soft natural smartphone photography, dark brown hair, pastel pink opaque heart stickers. Create new adults and a new composition. The adult women are clearly about 30 years old and fully dressed in modest loose opaque high crew-neck knit sweaters or cardigans and long skirts, with shoulders and chest fully covered. Relaxed ordinary mirror selfie holding a phone at shoulder height, natural hands. Each face is completely hidden by one flat light-pink heart sticker. Keep hair, phone and sweater realistic. Calm friendly everyday mood. No text, logo, watermark or collage borders. Tall portrait 9:16 composition. One woman wearing a cream high crew-neck sweater with a light dusty-pink cardigan, framed head to waist. Her head and the pink heart sticker are in the upper third of the image. The lower 40 percent is mostly softly blurred bright cream-colored foreground and subtle pale pink light, intentionally quiet for overlaid website text and buttons. Keep the upper 12 percent quiet for the header. Cozy natural daylight.",
+    "source": "C:\\Users\\callt\\.codex\\generated_images\\01a19f03-8ec8-7853-bf2d-9fca6466ead0\\exec-19db61c4-4e65-48d4-86c3-bc809d87fb5b.png",
+    "output": "public/assets/images/hero-cast-mobile-v2.webp",
+    "generator": "built-in image_gen",
+    "created": "2026-11-03"
+  }
+]

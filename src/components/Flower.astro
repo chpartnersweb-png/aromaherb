@@ -1,0 +1,13 @@
+---
+interface Props { class?: string; }
+const { class: className } = Astro.props;
+---
+<svg class={className} viewBox="0 0 100 100" fill="none" aria-hidden="true">
+  <g fill="#F9B5C5" stroke="#F69DAF" stroke-width=".6">
+    {[0, 72, 144, 216, 288].map(angle => <path d="M50 50C29 38 31 8 49 7C68 7 70 31 50 50Z" transform={`rotate(${angle} 50 50)`} />)}
+  </g>
+  <g fill="#FFE3E9" opacity=".85">
+    {[0, 72, 144, 216, 288].map(angle => <path d="M50 50C42 35 45 14 50 12C57 22 59 38 50 50Z" transform={`rotate(${angle} 50 50)`} />)}
+  </g>
+  <circle cx="50" cy="50" r="5" fill="#F2C96F" />
+</svg>
